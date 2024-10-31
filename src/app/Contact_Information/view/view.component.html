@@ -1,0 +1,25 @@
+<div class="parent">
+  <div class="container">
+    <button mat-flat-button (click)="goBack()">
+      <strong>
+        <i class="fa-solid fa-arrow-left"></i> Contact Information</strong
+      >
+    </button>
+    <div class="contact-details">
+      <div class="contact-info">
+        <p>
+          Name <br />
+          <strong> {{ contact?.name }}</strong>
+        </p>
+        <p>
+          Email Adsress<br />
+          <strong> {{ contact?.email }}</strong>
+        </p>
+        <p>
+          Contact Number <br />
+          <strong> {{ contact?.phone }}</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

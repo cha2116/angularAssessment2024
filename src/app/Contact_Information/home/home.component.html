@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="page-header">
+    <h1>Contact Information</h1>
+    <p>
+      Your list of contacts appears here. To add a new contact, click the Add
+      New Contact button.
+    </p>
+  </div>
+  <div>
+    <div class="action-buttons">
+      <button mat-raised-button color="primary" (click)="openAddContact()">
+        Add New Contact
+      </button>
+    </div>
+  </div>
+
+  <app-list
+    [contacts]="contacts"
+    (deleteContactEvent)="handleDelete($event)"
+    (updateContactEvent)="openEditContact($event)"
+    (viewContactEvent)="openViewContact($event)"
+  ></app-list>
+</div>

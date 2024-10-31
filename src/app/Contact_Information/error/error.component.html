@@ -1,0 +1,13 @@
+<div class="content">
+  parent div
+  <!-- Background content here -->
+</div>
+
+<!-- Modal Structure -->
+<div class="modal" *ngIf="isModalVisible">
+  <div class="modal-content">
+    child div
+    <!-- Modal content goes here -->
+    <button (click)="closeModal()">Close</button>
+  </div>
+</div>
