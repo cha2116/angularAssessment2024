@@ -1,52 +1,22 @@
 {
   "contacts": [
     {
-      "name": " Donald Trump II",
-      "phone": "33333355534",
-      "email": "trumpii@example2.com",
-      "id": "2"
+      "name": "cha",
+      "phone": "77777777777",
+      "email": "cha@gmail.com",
+      "id": 1
     },
     {
-      "name": " Donald Trump",
-      "phone": "33333355511",
-      "email": "donald11@example.com",
-      "id": "3"
+      "name": "dal",
+      "phone": "77772222222",
+      "email": "dal@gmail.com",
+      "id": 2
     },
     {
-      "name": " Barack Obama",
-      "phone": "12345678906",
-      "email": "barack@example.com",
-      "id": "5"
-    },
-    {
-      "name": "Charly Dalagon ",
-      "phone": "55544444444",
-      "email": "charly@gmail.com",
-      "id": "658c"
-    },
-    {
-      "name": "Kamala Harris",
-      "phone": "87763399944",
-      "email": "kamala@gmail.com",
-      "id": "788f"
-    },
-    {
-      "name": "Bill Clinton",
-      "phone": "77559933033",
-      "email": "bill@gmail.com",
-      "id": "b565"
-    },
-    {
-      "id": "9bc6",
-      "name": "George Bush",
-      "phone": "84848484884",
-      "email": "3@yahoo.com"
-    },
-    {
-      "name": "cha dal",
-      "phone": "65645646456",
-      "email": "chadal@gmail.com",
-      "id": "459f"
+      "name": "Charly Dalagon 1",
+      "phone": "19922222221",
+      "email": "charly1@gmail.com",
+      "id": 3
     }
   ]
 }

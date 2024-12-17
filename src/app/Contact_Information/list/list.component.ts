@@ -1,13 +1,17 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { contactModel } from '../contactModel';
-import { MatDialog } from '@angular/material/dialog';
+
 import {
   faPencilAlt,
   faTrash,
   faTableCells,
   faList,
 } from '@fortawesome/free-solid-svg-icons';
-import { AddComponent } from '../add/add.component';
+
+
+// import {AfterViewInit,  ViewChild} from '@angular/core';
+// import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
+// import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 
 @Component({
   selector: 'app-list',

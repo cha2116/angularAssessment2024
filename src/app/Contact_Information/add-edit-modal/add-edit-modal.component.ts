@@ -64,6 +64,8 @@ export class AddEditModalComponent implements OnInit {
   }
 
   onSubmit() {
+    let contactId = this.contactForm.value.id;
+    
     if (this.isEditMode) {
       this.contactService
         .updateContact(this.contact.id, this.contactForm.value)
